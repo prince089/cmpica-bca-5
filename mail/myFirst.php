@@ -41,7 +41,7 @@ $file = fopen("myData.csv","r");
 	 
 	 // SETTING MIME TYPE AS HTML INSTEAD OF PLAIN TEXT
 	 
-	$headers=$headers = 'Content-Type: text/html; charset=utf-8' . "\r\n";
+	$headers= 'Content-Type: text/html; charset=utf-8' . "\r\n";
   	 if (mail($to,$sub,$msg,$headers))	// SENDING MAIL
 	      echo $array[0]." - Mail is sent successfully.<br>";
 	  else
